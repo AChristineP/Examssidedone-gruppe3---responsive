@@ -1,0 +1,103 @@
+@import 'utilities';
+
+
+* {
+    margin:0;
+    padding:0;
+    scroll-behavior:smooth;
+    width: auto;
+    max-width: 100%;
+}
+
+
+body {
+    background-color: #5587A2;
+    width: 100%;
+    height: auto;
+    margin:0;
+    background-image: url("../img/1x/BaggrundlysblåArtboard\ 1.png");
+    background-repeat: repeat;
+}
+
+
+#udstillingknap {
+    background-color:#5587A2;
+    height: 30px;
+    width: 100px;
+    border-radius: 50px 50px;
+    position: absolute;
+    transform: translate(500%, 0);
+    border: none;
+    font-size: 15px;
+    font-weight: normal;
+}
+#udstillingknap:hover {
+    height: 35px;
+    width: 105px;
+    position: absolute;
+    transform: translate(475%, 0);
+}
+
+#udstillingknap a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+.billedekontakt {
+    margin-top: 1.5%;
+}
+
+#kotaktbillede {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5%;
+}
+
+
+
+
+
+.hvidkontaktboks {
+    position: absolute;
+    transform: translate(110%, -175%);
+    width: 30vw;
+    height: 40vh;
+}
+
+.infoboksen { 
+    background-color:rgba(255, 255, 255, 0.500);
+    background-color: rgba(255, 255, 255, 0.5);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 0vh;
+    padding: 1.5%;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+  
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+.kontaktbokse {
+    width: 25%;
+    display: grid;
+    justify-content: center;
+}
+
+.kontaktheadertekst {
+    font-weight: bold;
+}
+
+.blåfooter a {
+    text-decoration: none;
+  }
